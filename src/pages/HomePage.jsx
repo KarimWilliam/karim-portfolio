@@ -2,6 +2,7 @@ import React from "react";
 import reviewImg from "../images/reviewsite.avif";
 import commerceImg from "../images/commerce.avif";
 import RightArrow2 from "../components/RightArrow2.svg";
+import pesksite from "../images/pesksite.webp";
 
 function HomePage() {
   // document.documentElement.style.cssText = "--yellow-color: red";
@@ -81,6 +82,37 @@ function HomePage() {
             </div>
             <h4 className="centered" id="centered">
               Where items come to be sold…
+            </h4>
+          </div>
+        </div>
+        {/* peskales site */}
+        <div className="">
+          <h3 className="title">
+            <a
+              className="title"
+              rel="noopener noreferrer"
+              target="_blank"
+              height="300"
+              width="auto"
+              href="https://peskales-clinic.onrender.com/">
+              Peskales's Clinic{" "}
+              <img width={"20px"} src={RightArrow2} alt="right arrow"></img>
+            </a>
+          </h3>
+          <div className="review-project">
+            <div className=" blur-card" id="blur-card">
+              <a
+                rel="noopener noreferrer"
+                target="_blank"
+                href="https://dark-commerce.cyclic.app">
+                <img
+                  className="project-image"
+                  src={pesksite}
+                  alt="clinic site"></img>
+              </a>
+            </div>
+            <h4 className="centered" id="centered">
+              Physical Therapy Clinic
             </h4>
           </div>
         </div>
