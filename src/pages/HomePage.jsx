@@ -94,7 +94,7 @@ function HomePage() {
               target="_blank"
               height="300"
               width="auto"
-              href="https://peskales-clinic.onrender.com/">
+              href="https://www.peskalesclinics.com/">
               Peskales's Clinic{" "}
               <img width={"20px"} src={RightArrow2} alt="right arrow"></img>
             </a>
