@@ -21,7 +21,9 @@ function HomePage() {
           </p>
         </div>
       </div>
-      <h3 id="projects">Sample Websites</h3>
+      <h2 style={{ textAlign: "center" }} id="projects">
+        Sample Websites
+      </h2>
       <div className="projects">
         {/* game reviews */}
         <div>
@@ -117,19 +119,19 @@ function HomePage() {
           </div>
         </div>
       </div>
-      <h3 id="About">About Section</h3>
+      <h2 style={{ textAlign: "center" }} id="About">
+        About Section
+      </h2>
       <div className="about-container">
         <div className="about-elements">
           <h4>Motivation</h4>
-          <ul>
+          <ul className="aboutme">
             <li>
-              <p>
-                {" "}
-                A highly motivated web developer seeking to gain experience and
-                expand my knowledge.
-              </p>
-              I am looking to attain a position in a team that will utilize my
-              abilities and further develop my skill-set.
+              A highly motivated web developer seeking to gain experience and
+              expand my knowledge.
+              <br></br>
+              <br></br>I am looking to attain a position in a team that will
+              utilize my abilities and further develop my skill-set.
             </li>
           </ul>
         </div>

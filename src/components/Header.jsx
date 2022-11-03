@@ -62,8 +62,8 @@ function Header() {
         )}
 
         <div className="nav-elements">
-          <a href="#projects">Projects</a>
-          <a href="#About">About</a>
+          <a href="#projects">PRROJECTS</a>
+          <a href="#About">ABOUT</a>
 
           {currentColor ? (
             <button
@@ -71,7 +71,7 @@ function Header() {
               onClick={() => {
                 themeButtonClick();
               }}>
-              {currentColor ? "Punkify " : "Dark Mode "}
+              {currentColor ? "PUNKIFY " : "Dark Mode "}
               {currentColor ? (
                 <img alt="sun" width={"15px"} src={sun}></img>
               ) : (
@@ -96,8 +96,8 @@ function Header() {
       </div>
       <img
         src={!currentColor ? waveBanner : waveBanner2}
-        height="423"
-        width="1902"
+        maxheight="423"
+        maxwidth="1902"
         alt="destopian building banner"></img>
     </div>
   );

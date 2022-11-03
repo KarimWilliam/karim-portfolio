@@ -173,6 +173,8 @@ h5 {font-size: 1.2rem !important;}
   background-color: var(--cyan-color);
   font-size: 15px;
   border-color: rgba(0, 0, 0,20%);
+  white-space: nowrap;
+
 }
 
 .topnav button:hover{
@@ -224,6 +226,7 @@ h5 {font-size: 1.2rem !important;}
 .project-image{
   z-index: 1;
   height:300px;
+  border-radius: 20px;
 }
 
 
@@ -236,6 +239,7 @@ h5 {font-size: 1.2rem !important;}
 @media only screen and (max-width: 600px) {
   .project-image {
     height:130px;
+
   }
 }
 
@@ -255,6 +259,7 @@ h5 {font-size: 1.2rem !important;}
   color: rgba(189, 4, 158, 0);
   position: relative;
   text-align: center;
+  border-radius: 20%;
 }
 .review-project:hover {
   color:white;
@@ -267,6 +272,7 @@ h5 {font-size: 1.2rem !important;}
 
 
 .title {
+  white-space:nowrap ;
   color: var(--text-color) !important;
   text-decoration: none; 
 text-align: center;
@@ -349,7 +355,7 @@ flex-wrap: wrap;
 display: flex;
 flex-direction: column;
 justify-content: space-around;
-
+border-radius: 15px;
 
 }
 
@@ -423,6 +429,10 @@ img {
 
   .nav-elements{
     padding-right: 50px;
+    display: flex;
+  }
+  .nav-elements >a {
+    border-radius: 5px;;
   }
 
   .top-paragraph{
@@ -433,6 +443,7 @@ img {
     text-align: justify;
     border: 1px solid black;
     border-color: var(--border-color)  !important;
+    border-radius: 10px;
 color: --cyan-color
 
   }
