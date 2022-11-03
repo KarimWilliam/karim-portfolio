@@ -97,7 +97,7 @@ function HomePage() {
               height="300"
               width="auto"
               href="https://www.peskalesclinics.com/">
-              Peskales's Clinic{" "}
+              Peskales Clinics
               <img width={"20px"} src={RightArrow2} alt="right arrow"></img>
             </a>
           </h3>
